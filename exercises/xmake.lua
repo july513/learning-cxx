@@ -3,6 +3,8 @@ set_encodings("utf-8")
 set_warnings("all")
 set_kind("binary")
 set_languages("cxx17")
+set_toolset("cxx", "clang")
+set_toolset("ld", "clang++")
 
 -- 格式化输出
 target("exercise00")
